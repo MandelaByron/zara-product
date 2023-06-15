@@ -4,10 +4,10 @@ import requests
 import json
 from lxml import etree
 from bs4 import BeautifulSoup
+from sys import argv
+
 
 API_KEY=''
-from sys import argv
-API_KEY='ff3cc8159137f06335075d726050e683'
 
 #URL='https://www.zara.com/tr/en/tulle-princess-costume-p00653712.html'
 URL= argv[1]
