@@ -4,6 +4,8 @@ import requests
 import json
 from lxml import etree
 from bs4 import BeautifulSoup
+
+API_KEY=''
 from sys import argv
 API_KEY='ff3cc8159137f06335075d726050e683'
 
